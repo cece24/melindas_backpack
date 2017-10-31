@@ -45,9 +45,6 @@ class Backpack
   def pack_lunch(day_of_week)
     if day_of_week != 'saturday' && day_of_week != 'sunday'
       @items << 'packed lunch'
-    elsif false
-      # Used to bring snacks on weekend trips, but now I just buy 'em
-      @items << 'snacks'
     end
   end
 
